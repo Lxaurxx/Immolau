@@ -1,0 +1,62 @@
+<!-- 
+ Página principal sin iniciar sesión
+-->
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Pictures España</title>
+<link rel="stylesheet" href="style2.css">
+<!-- Enlace de Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+     <a href="index.html"> <h1><img class="titulo" src="logo.png" width="100" height="100">Pictures &amp; Images</h1></a>
+
+     <div class="login">
+        <form action="index2.html" method="get">
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+            <label for="contra">Contraseña:</label>
+            <input type="password" id="contra" required>
+            <input type="submit" value="Entrar">
+        </form>
+    </div>
+        <div class="busqueda">
+            <form action="resultadobusqueda.html" method="get">
+                Titulo: <input type="search"name="titulo" required>
+                <input type="submit" value="Buscar">
+            </form>
+        </div>
+     <h3><a href="busqueda.html" > Búsqueda avanzada </a></h3>
+        <nav>
+            <ul>
+            <li><a href="index.html"><i class="fa fa-home"></i>Inicio</a></li> 
+            <li><a href="registro.html"><i class="fa fa-pencil"></i>Regístrate</a></li> 
+            </ul>
+            </nav>
+       </header>
+
+    
+<main>
+    <h2>Ultimos anuncios</h2>
+    <a href="errorbusqueda.html"> 
+        <figure>
+            <img src="https://st3.idealista.com/news/archivos/styles/fullwidth_xl/public/2020-10/2_1.jpg?VersionId=CHid9TpdZkPMV4HUVXZ2QwrE9.4V_Lli&itok=nt_uogB4" width="200">
+            <figcaption> Una villa enorme - 12/04/2024 - Alicante, España - 300€ noche</figcaption>
+            <img src="https://www.letsbookhotel.com/img/max300/596/5963358.jpg" width="200">
+            <figcaption> Un apartamento  - 20/08/2024 - Madrid, España - 350.000€</figcaption>
+            <img src="https://www.ruralesdata.com/cache/alojamientos/aguirre-casa-rural/202-aguirre-casa-rural-elizondo-fachada.jpg" width="200">
+            <figcaption> Una Casa rural  - 29/07/2024 - Murcia, España - 215€ noche </figcaption> 
+            <img src="https://img.holidu.com/images/04154f1a-2601-43b9-830c-21adb0d60b11/t.jpg" width="200">
+            <figcaption> Apartamento veraniego  - 05/09/2024 - Salou, Tarragona, España - 220.000€</figcaption>
+            <img src="https://content.arquitecturaydiseno.es/medio/2021/08/23/casa-moderna-en-los-bosques-de-canada-5e022697-1500x1080_58fa7c01_1500x1080.jpeg" width="200">
+            <figcaption> Casa de montaña  - 01/05/2024 - Teruel, España - 132€ noche </figcaption>
+        </figure></a>
+</main>
+<footer>
+<p>&copy; 2024 Laura y Pablo </p>
+</footer>
+</body>
